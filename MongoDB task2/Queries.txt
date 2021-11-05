@@ -24,7 +24,7 @@ db.topics.aggregate([
 
 
 
-Q2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
 
 
 
@@ -36,7 +36,7 @@ db.comapnydrives.find({$or:[{drive_date:{$gte:new Date("15-oct-2020")}},
 
 
 
-Q3..Find all the company drives and students who are appeared for the placement.
+3.Find all the company drives and students who are appeared for the placement.
 
 db.comapnydrives.aggregate([
     {
